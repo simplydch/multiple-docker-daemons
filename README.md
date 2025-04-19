@@ -1,9 +1,6 @@
 ## Running multiple Docker Daemons in the same machine
 
-#### Forked from https://github.com/antIggl/multiple-docker-daemons (Big Thanks) with minor adjustments
-#### This allows me to run additional docker containers on same device as a home assistant supervised install
-#### without Home Assistant flagging the install and unsupported.
-#### e.g. "System is unsupported because additional software outside the Home Assistant ecosystem has been detected"
+#### Forked from https://github.com/antIggl/multiple-docker-daemons (Big Thanks) with minor adjustments. This allows me to run additional docker containers on same device as a home assistant supervised install without Home Assistant flagging the install and unsupported (e.g. "System is unsupported because additional software outside the Home Assistant ecosystem has been detected")
 
 We seperate the number of Docker daemons in the machine
 docker : the default installation
