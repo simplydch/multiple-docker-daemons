@@ -28,6 +28,9 @@ sudo cp ./docker-apps.socket /etc/systemd/system/docker-apps.socket
 sudo mkdir /var/lib/docker-apps
 ```
 4. Place the configuration file in ```/etc/docker/```
+
+Note: The bridge ip address (bip) is set to 172.25.0.1/16, different from Docker's default (172.17.0.1/16), to avoid ip conflicts
+
 ```bash
 sudo cp ./docker-daemon-apps.json /etc/docker/docker-apps.json
 ```
